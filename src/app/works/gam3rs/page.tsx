@@ -7,10 +7,15 @@ import Link from 'next/link'
 import GitHub from '@/app/lib/images/project_icons/social_media/github-icon.png'
 import LinkedIn from '@/app/lib/images/project_icons/social_media/linkedin-icon.png'
 import Gam3rs_Home_Desk from '@/app/lib/images/projects/gam3rs_web_app/Gam3rs_Desk_Home.png'
-import Gam3rs_Home_Mobile from '@/app/lib/images/projects/gam3rs_web_app/Gam3rs_mobile_home.png'
+import Gam3rs_Home_Mobile from '@/app/lib/images/projects/gam3rs_web_app/gam3rs_mobile_home.jpg'
 import Gam3rs_Forums_Desk from '@/app/lib/images/projects/gam3rs_web_app/Gam3rs_Desk_Forums.png'
 import Gam3rs_Forums_Mobile from '@/app/lib/images/projects/gam3rs_web_app/gam3rs_mobile_forums.png'
 import Gam3rs_Games_Desk from '@/app/lib/images/projects/gam3rs_web_app/Gam3rs_Desk_Games.png'
+import Gam3rs_Games_Mobile from '@/app/lib/images/projects/gam3rs_web_app/gam3rs_mobile_games.jpg'
+import Gam3rs_About_Desk from '@/app/lib/images/projects/gam3rs_web_app/gam3rs_desk_about.png'
+import Gam3rs_About_Mobile from '@/app/lib/images/projects/gam3rs_web_app/gamers_mobile_about.jpg'
+import Gam3rs_Videos_Desk from '@/app/lib/images/projects/gam3rs_web_app/gam3rs_desk_videos.png'
+import Gam3rs_videos_mobile from '@/app/lib/images/projects/gam3rs_web_app/gam3rs_mobile_videos.jpg'
 type Props = {}
 
 const The_Gam3r_Network = (props: Props) => {
@@ -51,12 +56,12 @@ const The_Gam3r_Network = (props: Props) => {
             </div>
 
         </div>
-        <div className=' flex flex-col w-4/5 justify-self-center max-sm:space-y-4' >
+        <div className=' flex flex-col w-4/5 justify-self-center max-sm:space-y-10 md:space-y-10' >
            <div className='' >
             <h1 className='text-2xl text-gray-400' >Home</h1>
-             <div className='flex max-sm:flex-col flex-row justify-around max-sm:space-y-4' >
-                <Image className=' md:w-1/3 md:h-1/2 md:max-w-[500px] md:max-h-[500px] '  src={Gam3rs_Home_Desk} quality={100} height={500} width={500} alt='Home Page Desktop' />
-                <Image className=' md:w-1/3 md:h-1/4 md:max-w-[250px] md:max-h-[750px] ' src={Gam3rs_Home_Mobile} quality={100} height={750} width={300} alt='Home Page Mobile' />
+             <div className='flex max-sm:flex-col flex-row justify-around max-sm:space-y-10' >
+                <Image className=' md:absolute md:left-12 md:w-1/2 md:h-1/3 border-2   border-gray-200'  src={Gam3rs_Home_Desk} quality={100} height={1000} width={1000} alt='Home Page Desktop' />
+                <Image className=' md:relative md:left-88 md:w-1/3 md:h-1/4 md:max-w-[250px] md:max-h-[750px] border-2   border-gray-200' src={Gam3rs_Home_Mobile} quality={100} height={750} width={300} alt='Home Page Mobile' />
              </div>
             
 
@@ -64,10 +69,10 @@ const The_Gam3r_Network = (props: Props) => {
 
            </div>
            <div className='' >
-            <h1 className='text-2xl text-gray-400' >Forums</h1>
+            <h1 className='text-2xl text-gray-400' >About</h1>
              <div className='flex max-sm:flex-col flex-row justify-around max-sm:space-y-4' >
-                <Image className=' md:w-1/3 md:h-1/2 md:max-w-[500px] md:max-h-[500px] '  src={Gam3rs_Forums_Desk} quality={100} height={500} width={500} alt='Forum Page Desktop' />
-                <Image className=' md:w-1/3 md:h-1/4 md:max-w-[250px] md:max-h-[750px] ' src={Gam3rs_Forums_Mobile} quality={100} height={750} width={300} alt='Forum Page Mobile' />
+                <Image className='md:absolute md:left-12 md:w-1/2 md:h-1/3 border-2   border-gray-200 '  src={Gam3rs_About_Desk} quality={100} height={1000} width={1000} alt='About Page Desktop' />
+                <Image className='  md:relative md:left-88 md:w-1/3 md:h-1/4 md:max-w-[250px] md:max-h-[750px] border-2   border-gray-200' src={Gam3rs_About_Mobile} quality={100} height={750} width={300} alt='About Page Mobile' />
              </div>
             
 
@@ -75,17 +80,27 @@ const The_Gam3r_Network = (props: Props) => {
 
            </div>
            <div className='' >
-            <h1 className='text-2xl text-gray-400' >Product Page</h1>
+            <h1 className='text-2xl text-gray-400' >Games</h1>
              <div className='flex max-sm:flex-col flex-row justify-around max-sm:space-y-4' >
-                <Image className=' md:w-1/3 md:h-1/2 md:max-w-[500px] md:max-h-[500px] '  src={Gam3rs_Games_Desk} quality={100} height={500} width={500} alt='Gam3rs Page Desktop' />
-               
+                <Image className='md:absolute md:left-12 md:w-1/2 md:h-1/3 border-2   border-gray-200 '  src={Gam3rs_Games_Desk} quality={100} height={1000} width={1000} alt='Gam3rs Page Desktop' />
+                <Image className=' md:relative md:left-88 md:w-1/3 md:h-1/4 md:max-w-[250px] md:max-h-[750px] border-2   border-gray-200'  src={Gam3rs_Games_Mobile} quality={100} height={500} width={500} alt='Gam3rs Page Mobile' />
              </div>
             
 
             
 
            </div>
+             <div className='' >
+            <h1 className='text-2xl text-gray-400' >Videos</h1>
+             <div className='flex max-sm:flex-col flex-row justify-around max-sm:space-y-4' >
+                <Image className='md:absolute md:left-12 md:w-1/2 md:h-1/3 border-2   border-gray-200 '  src={Gam3rs_Videos_Desk} quality={100} height={1000} width={1000} alt='Videos Page Desktop' />
+                <Image className=' md:relative md:left-88 md:w-1/3 md:h-1/4 md:max-w-[250px] md:max-h-[750px] border-2   border-gray-200'  src={Gam3rs_videos_mobile} quality={100} height={500} width={500} alt='Videos Page Mobile' />
+             </div>
             
+
+            
+
+           </div>
 
 
         </div>

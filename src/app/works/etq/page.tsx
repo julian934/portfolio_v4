@@ -53,12 +53,12 @@ const ETQ_Amsterdam = (props: Props) => {
             </div>
 
         </div>
-        <div className=' flex flex-col w-4/5 justify-self-center' >
+        <div className=' flex flex-col w-4/5 justify-self-center max-sm:space-y-10 ' >
            <div className='' >
             <h1 className='text-2xl text-gray-400' >Home</h1>
-             <div className='flex max-sm:flex-col flex-row justify-around max-sm:space-y-4' >
-                <Image className=' md:w-1/3 md:h-1/2 md:max-w-[500px] md:max-h-[500px] '  src={ETQ_Home_Desk} quality={100} height={500} width={500} alt='Home Page Desktop' />
-                <Image className=' md:w-1/3 md:h-1/4 md:max-w-[250px] md:max-h-[750px] ' src={ETQ_Home_Mobile} quality={100} height={750} width={300} alt='Home Page Mobile' />
+             <div className='flex max-sm:flex-col flex-row justify-around max-sm:space-y-10' >
+                <Image className='md:absolute md:left-12 md:w-1/2 md:h-1/2 border-2   border-gray-200'  src={ETQ_Home_Desk} quality={100} height={1000} width={1000} alt='Home Page Desktop' />
+                <Image className='md:relative md:left-88 md:w-1/3 md:h-1/4 md:max-w-[250px] md:max-h-[750px] border-2   border-gray-200' src={ETQ_Home_Mobile} quality={100} height={750} width={300} alt='Home Page Mobile' />
              </div>
             
 
@@ -67,9 +67,9 @@ const ETQ_Amsterdam = (props: Props) => {
            </div>
            <div className='' >
             <h1 className='text-2xl text-gray-400' >Products</h1>
-             <div className='flex max-sm:flex-col flex-row justify-around max-sm:space-y-4' >
-                <Image className=' md:w-1/3 md:h-1/2 md:max-w-[500px] md:max-h-[500px] '  src={Products_Desk} quality={100} height={500} width={500} alt='Home Page Desktop' />
-                <Image className=' md:w-1/3 md:h-1/4 md:max-w-[250px] md:max-h-[750px] ' src={Products_Mobile} quality={100} height={750} width={300} alt='Home Page Mobile' />
+             <div className='flex max-sm:flex-col flex-row justify-around max-sm:space-y-10' >
+                <Image className='   md:absolute md:left-12 md:w-1/2 md:h-1/2 border-2   border-gray-200'  src={Products_Desk} quality={100} height={1000} width={1000} alt='Home Page Desktop' />
+                <Image className=' md:relative md:left-88 md:w-1/3 md:h-1/4 md:max-w-[250px] md:max-h-[750px] border-2   border-gray-200' src={Products_Mobile} quality={100} height={750} width={300} alt='Home Page Mobile' />
              </div>
             
 
@@ -78,9 +78,9 @@ const ETQ_Amsterdam = (props: Props) => {
            </div>
            <div className='' >
             <h1 className='text-2xl text-gray-400' >Product Page</h1>
-             <div className='flex max-sm:flex-col flex-row justify-around max-sm:space-y-4' >
-                <Image className=' md:w-1/3 md:h-1/2 md:max-w-[500px] md:max-h-[500px] '  src={Product_Page_Desk} quality={100} height={500} width={500} alt='Home Page Desktop' />
-                <Image className=' md:w-1/3 md:h-1/4 md:max-w-[250px] md:max-h-[750px] ' src={Product_Page_Mobile} quality={100} height={750} width={300} alt='Home Page Mobile' />
+             <div className='flex max-sm:flex-col flex-row justify-around max-sm:space-y-10' >
+                <Image className=' md:absolute md:left-12 md:w-1/2 md:h-1/2 border-2   border-gray-200'  src={Product_Page_Desk} quality={100} height={1000} width={1000} alt='Home Page Desktop' />
+                <Image className=' md:relative md:left-88 md:w-1/3 md:h-1/4 md:max-w-[250px] md:max-h-[750px] border-2   border-gray-200' src={Product_Page_Mobile} quality={100} height={750} width={300} alt='Home Page Mobile' />
              </div>
             
 

@@ -14,9 +14,9 @@ const NavBar = (props: Props) => {
   return (
     <div className='flex justify-around' >
         
-        <div className='max-sm:absolute z-50  max-sm:-left-8 max-sm:-top-8 ' >
-            <Link href='/home' >
-           <Image className='w-48 h-30' src={Logo} alt='Julian Borner Portfolio' /> 
+        <div className='max-sm:absolute z-50 md:relative   max-sm:-left-8 max-sm:-top-8 ' >
+            <Link className='' href='/home' >
+           <Image className='w-48 h-30 md:relative md:w-full md:min-w-[250px] md:min-h-[150px] ' src={Logo} quality={100} alt='Julian Borner Portfolio' /> 
            </Link>
         </div>
         <div className=' max-sm:invisible flex justify-around w-60 self-center  text-gray-400' >
