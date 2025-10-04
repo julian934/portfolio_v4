@@ -3,9 +3,9 @@ import React from 'react'
 import Image from 'next/image'
 import Julians_Professional_Image from '@/app/lib/images/project_icons/professional_images/Julian_Borner_Professional_Profile_Pic.jpg'
 
-type Props = {}
+//type Props = {}
 
-const Modal = (props: Props) => {
+const Modal = (props: any) => {
   return (
     <div className='relative max-sm:top-8 md:min-h-[60vw] max-sm:px-4' >
 

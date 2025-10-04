@@ -10,9 +10,9 @@ import Modal from '../components/works_modal/modal'
 import * as motion from 'motion/react-client'
 
 
-type Props = {}
+//type Props = {}
 
-const Works = (props: Props) => {
+const Works = (props: any) => {
   const [activeEtq,setActiveETQ]=useState<boolean>(false);
   const [activeGam3rs,setActiveGam3rs]=useState<boolean>(false);
   return (

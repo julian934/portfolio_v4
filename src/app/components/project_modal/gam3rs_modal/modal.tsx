@@ -3,9 +3,9 @@ import React from 'react'
 import Image from 'next/image'
 import Gam3rs_Home_Desk from '@/app/lib/images/projects/gam3rs_web_app/Gam3rs_Desk_Home.png'
 
-type Props = {}
+//type Props = {}
 
-const Modal = (props: Props) => {
+const Modal = (props: any) => {
   return (
     <div className='relative max-sm:top-8 md:min-h-[60vw] max-sm:px-4' >
       

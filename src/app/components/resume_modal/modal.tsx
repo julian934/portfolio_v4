@@ -3,9 +3,9 @@ import React from 'react'
 import Image from 'next/image'
 import UH_Logo from '@/app/lib/images/project_icons/credentials/University_of_Houston_seal.svg.png'
 
-type Props = {}
+//type Props = {}
 
-const Modal = (props: Props) => {
+const Modal = (props: any) => {
   return (
     <div className='relative max-sm:top-8 md:min-h-[60vw] max-sm:px-4' >
       
