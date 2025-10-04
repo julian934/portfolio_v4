@@ -44,7 +44,7 @@ const The_Gam3r_Network = (props: any) => {
                    featuring user account creation via the Next-Auth Api, video uploads utilizing the MUX video Api, 
                    forum creation and an upcoming built-in Webshop utilizing the Stripe Api. 
                    Formulated a project plan, complete with a timeline and budget, 
-                   to ensure the project's completion within the designated time frame.</h3>
+                   to ensure the project&apos;s completion within the designated time frame.</h3>
                   <Link className='text-gray-400 flex text-lg' href='https://www.gam3rnetwork.com/home' >Project Link</Link>
             </div>
               
