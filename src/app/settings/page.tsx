@@ -1,9 +1,9 @@
 'use client'
 import React from 'react'
 
-type Props = {}
+//type Props = {}
 
-const Settings = (props: Props) => {
+const Settings = (props: any) => {
   return (
     <div>Settings</div>
   )
