@@ -23,9 +23,9 @@ import MUX from '@/app/lib/images/project_icons/coding_languages/Mux_Logo.png'
 import Stripe from '@/app/lib/images/project_icons/coding_languages/icons8-stripe-50.png'
 import Vercel from '@/app/lib/images/project_icons/coding_languages/Vercel-Logo.jpg'
 import MongoDB from '@/app/lib/images/project_icons/coding_languages/icons8-mongodb-48.png'
-type Props = {}
+//type Props = {}
 
-const Resume = (props: Props) => {
+const Resume = () => {
   return (
     <div className='bg-white min-h-screen' >
       

@@ -14,9 +14,9 @@ import Products_Desk from '@/app/lib/images/projects/etq_amsterdam/Products_Desk
 import Products_Mobile from '@/app/lib/images/projects/etq_amsterdam/Products_Mobile.png'
 import * as motion from 'motion/react-client'
 
-type Props = {}
+//type Props = {}
 
-const ETQ_Amsterdam = (props: Props) => {
+const ETQ_Amsterdam = () => {
   return (
     <div className='bg-white min-h-screen' >
      

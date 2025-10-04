@@ -8,9 +8,9 @@ import works from '@/app/lib/images/project_icons/UI/icons8-portfolio-50.png'
 import resume from '@/app/lib/images/project_icons/UI/icons8-resume-50.png'
 import settings from '@/app/lib/images/project_icons/UI/icons8-settings-50.png'
 
-type Props = {}
+//type Props = {}
 
-const NavBar = (props:Props) => {
+const NavBar = () => {
   return (
     <div className='flex justify-around' >
         

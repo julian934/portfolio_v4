@@ -7,9 +7,9 @@ import Link from 'next/link'
 import GitHub from '@/app/lib/images/project_icons/social_media/github-icon.png'
 import LinkedIn from '@/app/lib/images/project_icons/social_media/linkedin-icon.png'
 
-type Props = {}
+//type Props = {}
 
-const Home = (props: Props) => {
+const Home = () => {
   return (
     <div className='bg-white min-h-screen' >
         

@@ -1,9 +1,9 @@
 'use client'
 import React from 'react'
 
-type Props = {}
+//type Props = {}
 
-const Modal = (props: Props) => {
+const Modal = () => {
   return (
     <div>Modal</div>
   )
