@@ -16,9 +16,9 @@ import Gam3rs_About_Desk from '@/app/lib/images/projects/gam3rs_web_app/gam3rs_d
 import Gam3rs_About_Mobile from '@/app/lib/images/projects/gam3rs_web_app/gamers_mobile_about.jpg'
 import Gam3rs_Videos_Desk from '@/app/lib/images/projects/gam3rs_web_app/gam3rs_desk_videos.png'
 import Gam3rs_videos_mobile from '@/app/lib/images/projects/gam3rs_web_app/gam3rs_mobile_videos.jpg'
-//type Props = {}
+type Props = {}
 
-const The_Gam3r_Network = (props: any) => {
+const The_Gam3r_Network = (props: Props) => {
   return (
     <div className='bg-white min-h-screen' >
       

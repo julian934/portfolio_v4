@@ -2,9 +2,9 @@
 import React from 'react'
 import Image from 'next/image'
 
-//type Props = {}
+type Props = {}
 
-const Modal = (props: any) => {
+const Modal = (props: Props) => {
   return (
     <div>Modal</div>
   )

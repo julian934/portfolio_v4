@@ -2,9 +2,9 @@
 import React from 'react'
 import Image from 'next/image'
 import ETQ_Desk from '@/app/lib/images/projects/etq_amsterdam/Main-Page-Desk.png'
-//type Props = {}
+type Props = {}
 
-const Modal = (props: any) => {
+const Modal = (props: Props) => {
   return (
     <div className='relative max-sm:top-8 md:min-h-[60vw] max-sm:px-4' >
       
