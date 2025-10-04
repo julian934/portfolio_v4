@@ -19,10 +19,10 @@ const Home = (props: Props) => {
         </div>
         <div className='flex  relative  flex-col-reverse  md:flex-row md:justify-around md:justify-center md:max-w-screen md:space-x-8 md:p-4 ' >
           <div className='flex justify-around md:flex-col md:justify-self-around max-sm:p-2 ' >
-            <Link href='/' >
+            <Link href='https://github.com/julian934' >
             <Image className='w-10 h-10' src={GitHub} alt='GitHub' />
             </Link>
-             <Link href='/' >
+             <Link href='https://www.linkedin.com/in/julian-borner-709b91b7/?profileId=ACoAABjp17kBZWBPjm1poVjlER_t9U19uALJwbQ' >
             <Image className='w-10 h-10' src={LinkedIn} alt='LinkedIn' />
             </Link>
           </div>
